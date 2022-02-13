@@ -3,10 +3,10 @@ import random
 import numpy as np
 from gym_microrts.envs.vec_env import MicroRTSGridModeVecEnv
 from gym_microrts import microrts_ai
-from agents.gnn_agent import GNNNet, GNNAgent
+from gnn_agent import GNNNet, GNNAgent
 from stable_baselines3.common.vec_env import VecEnvWrapper, VecMonitor, VecVideoRecorder
 from numpy.random import choice
-from tools.dimension_reduction import get_nodes_vectors
+from dimension_reduction import get_nodes_vectors
 import sys
 
 

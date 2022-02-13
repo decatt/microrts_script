@@ -3,7 +3,7 @@ import random
 import numpy as np
 from gym_microrts.envs.vec_env import MicroRTSGridModeVecEnv
 from gym_microrts import microrts_ai
-from agents.aster_script_agent import ScriptAgent
+from aster_script_agent import ScriptAgent
 from stable_baselines3.common.vec_env import VecEnvWrapper, VecMonitor, VecVideoRecorder
 from numpy.random import choice
 import sys

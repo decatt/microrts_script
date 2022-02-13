@@ -6,7 +6,7 @@ import tensorboardX
 import collections
 from gym_microrts.envs.vec_env import MicroRTSGridModeVecEnv
 from gym_microrts import microrts_ai
-from agents.fun_agent import WorkerAgent, WorkerNet, ManagerAgent, ManagerNet
+from fun_agent import WorkerAgent, WorkerNet, ManagerAgent, ManagerNet
 from stable_baselines3.common.vec_env import VecEnvWrapper, VecMonitor, VecVideoRecorder
 from numpy.random import choice
 

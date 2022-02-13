@@ -5,7 +5,7 @@ import time
 import collections
 from gym_microrts.envs.vec_env import MicroRTSGridModeVecEnv
 from gym_microrts import microrts_ai
-from agents.cnn_agent import RTSAgent, RTSNet
+from cnn_agent import RTSAgent, RTSNet
 from stable_baselines3.common.vec_env import VecMonitor
 from numpy.random import choice
 import tensorboardX

@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch
 import numpy as np
-from tools.mask import CategoricalMasked
+from mask import CategoricalMasked
 
 device = torch.device('cuda:0' if torch.cuda.is_available() and True else 'cpu')
 

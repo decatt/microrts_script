@@ -1,5 +1,5 @@
 import numpy as np
-from tools.lower_level_script import astar_script, simple_astar_path_finding
+from lower_level_script import astar_script, simple_astar_path_finding
 
 
 class ScriptAgent:

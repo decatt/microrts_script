@@ -1,8 +1,8 @@
 import torch.nn as nn
 import torch
 import numpy as np
-from tools.mask import CategoricalMasked
-from tools.dimension_reduction import get_nodes_vectors
+from mask import CategoricalMasked
+from dimension_reduction import get_nodes_vectors
 
 device = torch.device('cuda:0' if torch.cuda.is_available() and True else 'cpu')
 

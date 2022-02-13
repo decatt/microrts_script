@@ -59,7 +59,7 @@ def move_to_target(x, y, target, action, action_temp):
     return action, d
 
 
-def auto_attack(units: [int], action_mask):
+def auto_attack(units, action_mask):
     actions = []
     for unit in units:
         action_temp = action_mask[unit]
@@ -70,7 +70,7 @@ def auto_attack(units: [int], action_mask):
     return actions
 
 
-def auto_return(units: [int], action_mask):
+def auto_return(units, action_mask):
     actions = []
     for unit in units:
         action_temp = action_mask[unit]
